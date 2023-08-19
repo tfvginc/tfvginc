@@ -1,28 +1,7 @@
 <!DOCTYPE html>
-<html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Telegram Bot</title>
-</head>
+<html>
 <body>
-    <script>
-        function generateRandomPercentage() {
-            return Math.floor(Math.random() * 101); // Generates a random number from 0 to 100
-        }
-
-        function respondToUser(username) {
-            const randomPercentage = generateRandomPercentage();
-            const response = `💎💎💎 Jesteś odpowiedzialnym użytkownikiem substancji psychoaktywnych w ${randomPercentage}% 💎💎💎`;
-
-            alert(response); // For demonstration purposes; in a real implementation, you'd send this response to the Telegram bot API
-        }
-
-        const userInput = prompt("Wpisz @HowResponsibleUser [swój nick]:");
-        if (userInput && userInput.startsWith("@HowResponsibleUser")) {
-            const username = userInput.split(" ")[1];
-            respondToUser(username);
-        }
-    </script>
+<h1>Hello World</h1>
+<p>I'm hosted with GitHub Pages.</p>
 </body>
 </html>
